@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+# Walkthrough solutions
+https://shabarkin.notion.site/Paradigm-CTF-2021-8b64c95c0e264e978d61a75f64da6d03
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
+Run yarn command to add hardhat environment:
 ```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn add --dev hardhat
+```
+
+Run the solution: 
+```json
+{
+    "babysandbox": "yarn hardhat test test/babysandbox/babysandbox.js",
+    "broker": "yarn hardhat test test/broker/broker.js",
+    "yield-aggregator": "yarn hardhat test test/yield-aggregator/yield-aggregator.js",
+    "bank": "yarn hardhat test test/bank/bank.js",
+    "bouncer": "yarn hardhat test test/bouncer/bouncer.js",
+    "vault": "yarn hardhat test test/vault/vault.js"
+ }
 ```
