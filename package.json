@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "hardhat": "^2.10.1",
+    "hardhat-waffle": "^0.0.1-security",
+    "mocha": "^10.0.0",
+    "web3": "^1.7.4"
+  },
+  "scripts": {
+    "babysandbox": "yarn hardhat test test/babysandbox/babysandbox.js",
+    "broker": "yarn hardhat test test/broker/broker.js",
+    "yield-aggregator": "yarn hardhat test test/yield-aggregator/yield-aggregator.js",
+    "bank": "yarn hardhat test test/bank/bank.js",
+    "bouncer": "yarn hardhat test test/bouncer/bouncer.js",
+    "vault": "yarn hardhat test test/vault/vault.js"
+  },
+  "devDependencies": {
+    "@ethersproject/abi": "^5.4.7",
+    "@ethersproject/providers": "^5.4.7",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.1.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@typechain/ethers-v5": "^10.1.0",
+    "@typechain/hardhat": "^6.1.2",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.9",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.7.21",
+    "typechain": "^8.1.0"
+  }
+}

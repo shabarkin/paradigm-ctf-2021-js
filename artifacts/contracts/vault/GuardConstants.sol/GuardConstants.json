@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "GuardConstants",
+  "sourceName": "contracts/vault/GuardConstants.sol",
+  "abi": [],
+  "bytecode": "0x60606040523415600e57600080fd5b5b603680601c6000396000f30060606040525b600080fd00a165627a7a7230582003ff5b3a799c3b6fa9cc843f84aeed6994a567cbb9b2f518033bec7c0cf7df240029",
+  "deployedBytecode": "0x60606040525b600080fd00a165627a7a7230582003ff5b3a799c3b6fa9cc843f84aeed6994a567cbb9b2f518033bec7c0cf7df240029",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

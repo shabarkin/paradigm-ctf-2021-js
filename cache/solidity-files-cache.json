@@ -1,0 +1,945 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/babysandbox/BabySandbox.sol": {
+      "lastModificationDate": 1658521708842,
+      "contentHash": "7760b6971ce78a2bfa3435d3ba4c401b",
+      "sourceName": "contracts/babysandbox/BabySandbox.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "BabySandbox"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/WETH9.sol": {
+      "lastModificationDate": 1658573902244,
+      "contentHash": "1339a600f835d312635e793336a8fff1",
+      "sourceName": "contracts/WETH9.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "WETH9"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/broker/Broker.sol": {
+      "lastModificationDate": 1658607468245,
+      "contentHash": "b2f3550f946af17cd4c1f99795a8d340",
+      "sourceName": "contracts/broker/Broker.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "Broker",
+        "ERC20Like",
+        "IUniswapV2Pair",
+        "iWETH9"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/broker/SetupBroker.sol": {
+      "lastModificationDate": 1658607293510,
+      "contentHash": "7d7257c41d868c2273517901b8691905",
+      "sourceName": "contracts/broker/SetupBroker.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Broker.sol"
+      ],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory",
+        "SetupBroker",
+        "Token"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/babysandbox/SetupBabySandbox.sol": {
+      "lastModificationDate": 1658576595813,
+      "contentHash": "4cd14d3212a8ce4e1c16fc2d3e482781",
+      "sourceName": "contracts/babysandbox/SetupBabySandbox.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BabySandbox.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "SetupBabySandbox"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/broker/ExploitBroker.sol": {
+      "lastModificationDate": 1658612758208,
+      "contentHash": "35d7ef07f22607f571df29b9d22804e3",
+      "sourceName": "contracts/broker/ExploitBroker.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Broker.sol",
+        "./SetupBroker.sol"
+      ],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "ExploitBroker"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1658574186517,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1658574186517,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/babysandbox/ExploitBabySandbox.sol": {
+      "lastModificationDate": 1658613297417,
+      "contentHash": "e4479603099d4a5449cab2d870faf023",
+      "sourceName": "contracts/babysandbox/ExploitBabySandbox.sol",
+      "solcConfig": {
+        "version": "0.7.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SetupBabySandbox.sol"
+      ],
+      "versionPragmas": [
+        "0.7.0"
+      ],
+      "artifacts": [
+        "Child",
+        "ExploitBabySandbox"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/yield-aggregator/SetupYieldAggregator.sol": {
+      "lastModificationDate": 1658673605431,
+      "contentHash": "f37ca91eef9a4fb1dc39f8b5cf34d741",
+      "sourceName": "contracts/yield-aggregator/SetupYieldAggregator.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./YieldAggregator.sol"
+      ],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "MiniBank",
+        "SetupYieldAggregator",
+        "iWETH9"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/yield-aggregator/YieldAggregator.sol": {
+      "lastModificationDate": 1658668499182,
+      "contentHash": "53715cc2b0dcf316531f78d38ec203c4",
+      "sourceName": "contracts/yield-aggregator/YieldAggregator.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Like",
+        "Protocol",
+        "YieldAggregator"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/yield-aggregator/ExploitYield.sol": {
+      "lastModificationDate": 1658675527192,
+      "contentHash": "0505d4915a6da76d31fa32801bfeb500",
+      "sourceName": "contracts/yield-aggregator/ExploitYield.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./YieldAggregator.sol",
+        "./SetupYieldAggregator.sol"
+      ],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "ExploitYeild",
+        "FakeMiniBank"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/bank/Bank.sol": {
+      "lastModificationDate": 1658823504030,
+      "contentHash": "ddace6acae1d1544b41708ae6b29307d",
+      "sourceName": "contracts/bank/Bank.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.4.24"
+      ],
+      "artifacts": [
+        "Bank",
+        "ERC20Like"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/bank/SetupBank.sol": {
+      "lastModificationDate": 1658785903943,
+      "contentHash": "fbf10da9280baa2ecf9e4684a6322231",
+      "sourceName": "contracts/bank/SetupBank.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Bank.sol"
+      ],
+      "versionPragmas": [
+        "0.4.24"
+      ],
+      "artifacts": [
+        "SetupBank",
+        "iWETH9"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/bank/ExploitBank.sol": {
+      "lastModificationDate": 1658829439605,
+      "contentHash": "f17c1cbaba36b24423ea07508ae671bf",
+      "sourceName": "contracts/bank/ExploitBank.sol",
+      "solcConfig": {
+        "version": "0.4.24",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SetupBank.sol",
+        "./Bank.sol"
+      ],
+      "versionPragmas": [
+        "0.4.24"
+      ],
+      "artifacts": [
+        "ExploitBank",
+        "ExploitToken"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/bouncer/Bouncer.sol": {
+      "lastModificationDate": 1658870274201,
+      "contentHash": "31792741030d60b78fcd43cb9abd74e9",
+      "sourceName": "contracts/bouncer/Bouncer.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "Bouncer",
+        "ERC20Like",
+        "Party"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/bouncer/SetupBouncer.sol": {
+      "lastModificationDate": 1658870519739,
+      "contentHash": "a4cb7c785d6061989c8556752a924f83",
+      "sourceName": "contracts/bouncer/SetupBouncer.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Bouncer.sol"
+      ],
+      "versionPragmas": [
+        "0.8.0"
+      ],
+      "artifacts": [
+        "SetupBouncer",
+        "iWETH9"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/bouncer/ExploitBouncer.sol": {
+      "lastModificationDate": 1658871990352,
+      "contentHash": "497abea3989b394eff7b6bccc39b35f5",
+      "sourceName": "contracts/bouncer/ExploitBouncer.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SetupBouncer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ExploitBouncer",
+        "Sender"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/vault/Guard.sol": {
+      "lastModificationDate": 1659040048190,
+      "contentHash": "619fb8f079dc89f12a963f6fac152a11",
+      "sourceName": "contracts/vault/Guard.sol",
+      "solcConfig": {
+        "version": "0.4.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GuardConstants.sol",
+        "./Vault.sol"
+      ],
+      "versionPragmas": [
+        "0.4.16"
+      ],
+      "artifacts": [
+        "Guard",
+        "GuardIdGetter"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/vault/GuardConstants.sol": {
+      "lastModificationDate": 1659040067792,
+      "contentHash": "91256beb831a33ec208038313505d824",
+      "sourceName": "contracts/vault/GuardConstants.sol",
+      "solcConfig": {
+        "version": "0.4.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.4.16"
+      ],
+      "artifacts": [
+        "GuardConstants"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/vault/Vault.sol": {
+      "lastModificationDate": 1659040280156,
+      "contentHash": "236979b879946ff539ef0ea6740ec473",
+      "sourceName": "contracts/vault/Vault.sol",
+      "solcConfig": {
+        "version": "0.4.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GuardRegistry.sol",
+        "./GuardConstants.sol",
+        "./Guard.sol"
+      ],
+      "versionPragmas": [
+        "0.4.16"
+      ],
+      "artifacts": [
+        "EIP1167Factory",
+        "ERC20Like",
+        "Vault"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/vault/GuardRegistry.sol": {
+      "lastModificationDate": 1659039948146,
+      "contentHash": "633fff5c09d30768279b66d8a901cf25",
+      "sourceName": "contracts/vault/GuardRegistry.sol",
+      "solcConfig": {
+        "version": "0.4.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Guard.sol"
+      ],
+      "versionPragmas": [
+        "0.4.16"
+      ],
+      "artifacts": [
+        "GuardRegistry"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/vault/SingleOwnerGuard.sol": {
+      "lastModificationDate": 1659039933827,
+      "contentHash": "37c65c6fd818b3b501d934a41377f4a6",
+      "sourceName": "contracts/vault/SingleOwnerGuard.sol",
+      "solcConfig": {
+        "version": "0.4.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Guard.sol",
+        "./Vault.sol"
+      ],
+      "versionPragmas": [
+        "0.4.16"
+      ],
+      "artifacts": [
+        "SingleOwnerGuard"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/vault/SetupVault.sol": {
+      "lastModificationDate": 1659041694109,
+      "contentHash": "edbecdc3a59d0491a707b44cf5941692",
+      "sourceName": "contracts/vault/SetupVault.sol",
+      "solcConfig": {
+        "version": "0.4.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SingleOwnerGuard.sol",
+        "./GuardRegistry.sol",
+        "./Vault.sol"
+      ],
+      "versionPragmas": [
+        "0.4.16"
+      ],
+      "artifacts": [
+        "SetupVault"
+      ]
+    },
+    "/Users/shabarkin/BlockchainSecurity/paradigm-ctf-2021-js/contracts/vault/ExploitVault.sol": {
+      "lastModificationDate": 1659045159891,
+      "contentHash": "ee98620f80ac1ee1cdc923b52c54faa2",
+      "sourceName": "contracts/vault/ExploitVault.sol",
+      "solcConfig": {
+        "version": "0.4.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SetupVault.sol"
+      ],
+      "versionPragmas": [
+        "0.4.16"
+      ],
+      "artifacts": [
+        "Caller",
+        "ExploitVault"
+      ]
+    }
+  }
+}
